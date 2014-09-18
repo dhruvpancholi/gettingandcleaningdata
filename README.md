@@ -1,9 +1,3 @@
----
-title: "README"
-author: "Dhruv Pancholi"
-date: "Thursday, September 18, 2014"
-output: html_document
----
 Getting and Cleaning Data Coursera Project
 ===============================================
 
@@ -60,7 +54,7 @@ res$activity<-factor(res$activity,labels=activity_labels)
 res$subject<-factor(res$subject)
 ```
 
-Creating final tidy data set:
+Creating final tidy data set with mean and standard deviation:
 ```r
 # creating data table for each subject for each variable
 tidy_data=expand.grid(subject=rep(1:30,6))
