@@ -1,0 +1,11 @@
+Code book
+=================
+
+subject : The subject identification from 1 to 30
+variable : The variables for which mean is calculated, possible values are mean_x, mean_y, mean_z, std_x, std_y, std_z
+mean_x : mean of x acceleration
+mean_y : mean of y acceleration
+mean_z : mean of z acceleration
+std_x : standard deviation of x acceleration
+std_y : standard deviation of y acceleration
+std_z : standard deviation of z acceleration
